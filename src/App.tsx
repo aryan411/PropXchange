@@ -1,11 +1,10 @@
 import './App.css';
+import Navbar from './NavBar/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <div className="company-name">PropXchange</div>
-    </header>
+      <Navbar/>
     </div>
   );
 }
